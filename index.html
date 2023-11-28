@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDG</title>
+    <link rel="icon" type="image/x-icon" href="/images/money-4311572_1920.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body class="d-flex " style="background: url(./image/calculator.webp); background-size: cover;  ">
+<div class="container mt-5 ">
+    
+    <div class="row  rounded-3 mt-5">
+        <div class="col-lg-6 d-none d-md-block">
+            <!-- <img class="img-fluid " src="./image/calculator.webp" alt="homeimg"> -->
+        </div>
+
+
+
+
+        <div class="col-lg-6 " style="background: url(https://333edvin.github.io/budget-calc/images/education-7624302_1920.png); background-size: cover;  " >
+
+            <form action="" id="formlogin" class="d-flex flex-column  p-5 gap-4">
+              <h2 class="text-center">Login</h2>
+                            <div class="text-center">
+                              <input id="username" type="text" class="form-control w-75 m-3 mx-auto " placeholder ="Username">
+                              <input id="password" type="password" class="form-control w-75 m-3 mx-auto"placeholder="Password" >
+                              <button onclick="login(event)" class="btn  rounded-2 w-75 text-white" style="background-color: rgb(61, 176, 247);">Login</button>
+
+                            </div>
+                            <div class="text-center ">
+                              <a class="text-decoration-none text-danger" href="#"><strong>Don't have an account ?</strong>  </a>  <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="fw-medium "  href="#">Register</a></button>
+
+                            </div>
+            </form>
+
+        <!-- </div> -->
+
+
+            <!-- modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="fs-2  text-center  ">BUDG</h3>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col bg-secondary-subtle rounded-3 shadow p-3">
+                            <form action="" id="formregister">
+                            <h4 class="text-center ">Register</h4>
+                            <input id="uname" type="text" class="form-control "placeholder="Username"><br>
+                            <input id="email" type="email" class="form-control" placeholder ="Email Id"><br>
+                            <input id="passwd" type="password" class="form-control "placeholder="Password" ><br>
+                                                
+                              </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer text-center ">
+                        
+                      <button type="button" onclick="register()" class="btn text-white" style="background-color: blueviolet;">Register</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+                    
+  </div>
+    
+</body>
+<script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
